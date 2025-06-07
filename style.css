@@ -1,0 +1,49 @@
+/* Réinitialisation des marges et boîtes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corps de page centré et fond noir initial */
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.5s ease;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Conteneur central */
+  .container {
+    text-align: center;
+  }
+  
+  /* Style du bouton */
+  button {
+    padding: 15px 25px;
+    font-size: 1em;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+  }
+  button:hover {
+    background-color: #eee;
+    transform: scale(1.05);
+  }
+  
+  /* Zone de couleur carrée */
+  #colorDisplay {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 2px solid #fff;
+  }
+  
